@@ -7,6 +7,10 @@ Release Date : 2020/08/05
 
 [ ----- CIni Change Log ----- ]
 
+Version 1.2.1
+ - Added const char* overloads for all get/set functions excluding unsafe getters
+ - Fixed usage of incorrect string to type functions on getters
+
 Version 1.2.0
  - Added a second constructor taking a const char*
  - Added macro to customize buffer size
